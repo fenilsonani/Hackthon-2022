@@ -1,0 +1,79 @@
+<!-- problem page
+
+name od applicant
+contact
+address of problem
+dropdown:-
+	health and hygine
+	control epidemics
+	village roads
+	Education
+	Agriculture
+	women welfare
+	disaaster
+Request description(text area)
+
+button:- submit , reset
+ -->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class=" mt-5 container">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Contact Name</label>
+            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name Of Applicant">
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Contact Number</label>
+            <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="999xxxx999">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Address Of Problem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Description Of Problem</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+        <div class="dropdown" style="">
+
+
+            <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Select Problem
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Health And Hygin</a></li>
+                <li><a class="dropdown-item" href="#">Control epidemics</a></li>
+                <li><a class="dropdown-item" href="#">Village Roads</a></li>
+                <li><a class="dropdown-item" href="#">Education</a></li>
+                <li><a class="dropdown-item" href="#">Agriculture</a></li>
+                <li><a class="dropdown-item" href="#">Women Welfer</a></li>
+                <li><a class="dropdown-item" href="#">Disaster</a></li>
+            </ul>
+        </div>
+        <div class="button-of-ok mt-3">
+
+            <button class="btn btn-success" type="button">Submit</button>
+            <button class="btn btn-danger" type="button">Reset</button>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
