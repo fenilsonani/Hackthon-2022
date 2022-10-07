@@ -1,0 +1,9 @@
+img{
+    padding: 0% 20%;
+}
+@media print {
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
+}
