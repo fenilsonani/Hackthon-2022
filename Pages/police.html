@@ -1,15 +1,92 @@
-
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-  </head>
-  <body>
-    <iframe  height="100%" width="100%"
-     src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d29122.12813282563!2d72.40771216604759!3d24.162401697510237!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spolice%20station%20in%20palanpur!5e0!3m2!1sen!2sin!4v1665160647901!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+
+<body>
+  <br>
+  <div>
+    <marquee style="color:blue;" behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop();"
+      onmouseout="this.start();" <font size="100px" color="##FFFFFF">GUIDELINE FOR THE YEAR 2022-2023 Novel Corona Virus
+      (COVID-19) is still spreading stay aware--&gt;ANNOUNCEMENTS</font>
+    </marquee>
+  </div>
+  <div class="container">
+    <div class="row">
+      <br>
+      <div class="col-sm-8">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15323.939234341686!2d72.43243782977477!3d24.160431417575875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ce94f2ca5d4c9%3A0x5e279bd1c30df236!2sPolice%20Head%20Quarters!5e0!3m2!1sen!2sin!4v1665170652112!5m2!1sen!2sin" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-sm-3">
+        Sample Title of Describe The Brief Info.<br>
+        <ul>
+          <li>
+            sample Name
+          </li>
+          <li>
+            sample name
+          </li>
+          <li>
+            sample name
+          </li>
+          <li>
+            sample name
+          </li>
+          <li>
+            sample name
+          </li>
+          <li>
+            sample name
+          </li>
+          <li>
+            sample name
+          </li>
+          <li>
+            sample name
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <img src="1.jpeg" id="bigimg" class="img-thumbnail mt-5" style="width: 100%;" alt="">
+    </div>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-sm-4">
+          <img src="1.jpeg" onclick="fenil()" class="img-thumbnail" alt="error">
+        </div>
+        <div class="col-sm-4">
+          <img src="2.jpeg" onclick="fenil1()" class="img-thumbnail" alt="error">
+        </div>
+        <div class="col-sm-4">
+          <img src="1.jpeg" onclick="fenil()" class="img-thumbnail" alt="error">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div><br>
+  <footer class="bg-light text-center">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-dark" href="home.html">Team1589</a>
+    </div>
+  </footer>
+
+  <script>
+    let bigimg = document.getElementById("bigimg");
+    function fenil() {
+      bigimg.src = "1.jpeg";
+    }
+    function fenil1() {
+      bigimg.src = "2.jpeg";
+    }
+  </script>
+</body>
+
 </html>
