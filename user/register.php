@@ -1,3 +1,44 @@
+<?php
+$insert = false;
+if(isset($_POST['name'])){
+    // Set connection variables
+    $server = "localhost";
+    $username = "root";
+    $password = "";
+
+    // Create a database connection
+    $con = mysqli_connect($server, $username, $password);
+
+    // Check for connection success
+    if(!$con){
+        die("connection to this database failed due to" . mysqli_connect_error());
+    }
+    // echo "Success connecting to the db";
+
+    // Collect post variables
+    // $id=$_POST['id'];
+    $name = $_POST['name'];
+    $pass = $_POST['pass'];
+    $email = $_POST['email'];
+    $number = $_POST['number'];
+    $sql = "INSERT INTO `user`.`info` (`name`, `email`, `no`, `pass`) VALUES ('$name', '$email', '$number', '$pass');";
+    // echo $sql;
+
+    // Execute the query
+    if($con->query($sql) == true){
+        // echo "Successfully inserted";
+
+        // Flag for successful insertion
+        $insert = true;
+    }
+    else{
+        echo "ERROR: $sql <br> $con->error";
+    }
+
+    // Close the database connection
+    $con->close();
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,18 +78,19 @@
 
                                     <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
 
-                                    <form class="mx-1 mx-md-4" action="#">
+                                    <form class="mx-1 mx-md-4" action="post">
 
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="text" class="form-control" placeholder="Your Name" />
+                                                <input type="text" id="name" name="name" class="form-control"
+                                                    placeholder="Your Name" />
                                             </div>
                                         </div>
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-user fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="number" class="form-control"
+                                                <input type="number" id="number" name="number" class="form-control"
                                                     placeholder="Your Mobile No" />
                                             </div>
                                         </div>
@@ -56,7 +98,7 @@
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="email" id="form3Example3c" class="form-control"
+                                                <input type="email" id="email" naame="email" class="form-control"
                                                     placeholder="Your Email" />
                                             </div>
                                         </div>
@@ -64,7 +106,7 @@
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="password" id="form3Example4c" class="form-control"
+                                                <input type="password" id="pass" name="pass" class="form-control"
                                                     placeholder="Password" />
                                             </div>
                                         </div>
