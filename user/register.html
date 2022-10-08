@@ -51,18 +51,6 @@ if(isset($_POST['name'])){
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3147954826912986"
         crossorigin="anonymous"></script>
-    <style>
-        input::-webkit-outer-spin-button,
-        input::-webkit-inner-spin-button {
-            -webkit-appearance: none;
-            margin: 0;
-        }
-
-        input[type=number] {
-            -moz-appearance: textfield;
-            /* Firefox */
-        }
-    </style>
     <title>Sign-up</title>
 </head>
 
@@ -76,46 +64,32 @@ if(isset($_POST['name'])){
                             <div class="row justify-content-center">
                                 <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
 
-                                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+                                    <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Login</p>
 
-                                    <form class="mx-1 mx-md-4" action="post">
-
-                                        <div class="d-flex flex-row align-items-center mb-4">
-                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
-                                            <div class="form-outline flex-fill mb-0">
-                                                <input type="text" id="name" name="name" class="form-control"
-                                                    placeholder="Your Name" />
-                                            </div>
-                                        </div>
-                                        <div class="d-flex flex-row align-items-center mb-4">
-                                            <i class="fas fa-user fa-lg me-3 fa-fw"></i>
-                                            <div class="form-outline flex-fill mb-0">
-                                                <input type="number" id="number" name="number" class="form-control"
-                                                    placeholder="Your Mobile No" />
-                                            </div>
-                                        </div>
-
+                                    <form action="adhar.php" method="POST">
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="email" id="email" naame="email" class="form-control"
-                                                    placeholder="Your Email" />
+                                                <input type="text" id="no1" class="form-control"
+                                                    placeholder="Aadhaar No." onkeyup="addHyphen(this)" name="no1" />
                                             </div>
+                                            <script>
+                                                function addHyphen(element) {
+                                                    let ele = document.getElementById(element.id);
+                                                    ele = ele.value.split('-').join('');    // Remove dash (-) if mistakenly entered.
+
+                                                    let finalVal = ele.match(/.{1,4}/g).join('-');
+                                                    document.getElementById(element.id).value = finalVal;
+                                                }
+                                            </script>
+
                                         </div>
 
                                         <div class="d-flex flex-row align-items-center mb-4">
                                             <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
                                             <div class="form-outline flex-fill mb-0">
-                                                <input type="password" id="pass" name="pass" class="form-control"
-                                                    placeholder="Password" />
-                                            </div>
-                                        </div>
-
-                                        <div class="d-flex flex-row align-items-center mb-4">
-                                            <i class="fas fa-key fa-lg me-3 fa-fw"></i>
-                                            <div class="form-outline flex-fill mb-0">
-                                                <input type="password" id="passwrd2" class="form-control"
-                                                    placeholder="Repeat your password" />
+                                                <input type="text" id="pass1" class="form-control"
+                                                    placeholder="Password" name="pass1" />
                                             </div>
                                         </div>
 
@@ -128,10 +102,10 @@ if(isset($_POST['name'])){
                                         </div>
                                         <div class="fenil-sonani d-flex justify-content-center">
                                             <br>
-                                            <p>Already Register <a href="login.html">Log In</a></p>
+                                            <p>Not Registerd <a href="register.html">Register</a></p>
                                         </div>
                                         <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
-                                            <button type="button" class="btn btn-primary btn-lg">Register</button>
+                                            <button type="submit" class="btn btn-primary btn-lg">Log In</button>
                                         </div>
 
                                     </form>
