@@ -2,524 +2,421 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Village List</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <style>
-        a {
-            text-decoration: none;
-            color: black;
-        }
+        <link rel="icon" href="/SRC/IMG/Base/logo.jpg" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Village List</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+                crossorigin="anonymous">
+        <style>
+                a {
+                        text-decoration: none;
+                        color: black;
+                }
 
-        li {
-            list-style: none;
-        }
-    </style>
+                li {
+                        list-style: none;
+                }
+        </style>
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Taluka</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Tourisum
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Tourist places</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Gov. Schemes
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="https://panchayat.gujarat.gov.in/en/Home">All Schemes</a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item"
-                                    href="https://panchayat.gujarat.gov.in/en/Sardar-Patel-Awas-Yojana">Sardar Awas
-                                    Yojana</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://panchayat.gujarat.gov.in/en/Panchvati-Yojna">Panchvati Yojana</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://panchayat.gujarat.gov.in/en/Swachcha-Gam-Swasth-Gam-Yojna">Swastha Gam
-                                    Yojana</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://panchayat.gujarat.gov.in/en/Jamin-Sampadan-ane-Madkhagat-Suvidha">Jamin
-                                    Sampadan Yojana</a></li>
-                            <li><a class="dropdown-item"
-                                    href="https://panchayat.gujarat.gov.in/en/Gramsabha">Gramsabha</a></li>
+        <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Taluka</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item">
+                                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Tourisum
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Tourist places</a></li>
+                                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                                        <li>
+                                                                <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Something else here</a>
+                                                        </li>
+                                                </ul>
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Gov. Schemes
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item"
+                                                                        href="https://panchayat.gujarat.gov.in/en/Home">All
+                                                                        Schemes</a>
+                                                        </li>
+                                                        <li>
+                                                                <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="https://panchayat.gujarat.gov.in/en/Sardar-Patel-Awas-Yojana">Sardar
+                                                                        Awas
+                                                                        Yojana</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="https://panchayat.gujarat.gov.in/en/Panchvati-Yojna">Panchvati
+                                                                        Yojana</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="https://panchayat.gujarat.gov.in/en/Swachcha-Gam-Swasth-Gam-Yojna">Swastha
+                                                                        Gam
+                                                                        Yojana</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="https://panchayat.gujarat.gov.in/en/Jamin-Sampadan-ane-Madkhagat-Suvidha">Jamin
+                                                                        Sampadan Yojana</a></li>
+                                                        <li><a class="dropdown-item"
+                                                                        href="https://panchayat.gujarat.gov.in/en/Gramsabha">Gramsabha</a>
+                                                        </li>
 
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li style="padding: 10px; padding: 10px;">Map Of Palanpur
-                                <iframe
-                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47577.29844004165!2d72.41703302092269!3d24.177956333696105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ce9433aa83189%3A0x36a408833757b857!2sPalanpur%2C%20Gujarat%20385001!5e0!3m2!1sen!2sin!4v1665143579738!5m2!1sen!2sin"
-                                    width="400" height="300" style="border:0; margin: 7px; border-radius: 10px;"
-                                    allowfullscreen="" loading="lazy"
-                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="hospitals.html">Hospitals</a></li>
-                            <li><a class="dropdown-item" href="#">Police Station</a></li>
-                            <li><a class="dropdown-item" href="#">Schools</a></li>
-                            <li><a class="dropdown-item" href="#">Colleges</a></li>
-                            <li><a class="dropdown-item" href="#">Banks</a></li>
-                            <li><a class="dropdown-item" href="#">Gardens</a></li>
-                            <li><a class="dropdown-item" href="#">Muncipality Office</a></li>
-                            <li><a class="dropdown-item" href="#">Courtes</a></li>
-                            <li><a class="dropdown-item" href="#">Electricity Departement</a></li>
+                                                </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Services
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                        <li style="padding: 10px; padding: 10px;">Map Of Palanpur
+                                                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47577.29844004165!2d72.41703302092269!3d24.177956333696105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395ce9433aa83189%3A0x36a408833757b857!2sPalanpur%2C%20Gujarat%20385001!5e0!3m2!1sen!2sin!4v1665143579738!5m2!1sen!2sin"
+                                                                        width="400" height="300"
+                                                                        style="border:0; margin: 7px; border-radius: 10px;"
+                                                                        allowfullscreen="" loading="lazy"
+                                                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                                        </li>
+                                                        <li>
+                                                                <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="hospitals.html">Hospitals</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Police Station</a></li>
+                                                        <li><a class="dropdown-item" href="#">Schools</a></li>
+                                                        <li><a class="dropdown-item" href="#">Colleges</a></li>
+                                                        <li><a class="dropdown-item" href="#">Banks</a></li>
+                                                        <li><a class="dropdown-item" href="#">Gardens</a></li>
+                                                        <li><a class="dropdown-item" href="#">Muncipality Office</a>
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Courtes</a></li>
+                                                        <li><a class="dropdown-item" href="#">Electricity
+                                                                        Departement</a></li>
 
 
-                        </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Officer/Polician Details
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Officer Detail</a></li>
-                            <li><a class="dropdown-item" href="#">Polician Details</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Police Detail</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Village List</a>
-                    </li>
+                                                </ul>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" role="button"
+                                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                                        Officer/Polician Details
+                                                </a>
+                                                <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="#">Officer Detail</a></li>
+                                                        <li><a class="dropdown-item" href="#">Polician Details</a></li>
+                                                        <li>
+                                                                <hr class="dropdown-divider">
+                                                        </li>
+                                                        <li><a class="dropdown-item" href="#">Police Detail</a></li>
+                                                </ul>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" aria-current="page" href="#">Village List</a>
+                                        </li>
+                                </ul>
+
+                                <form class="d-flex" role="search gap-2">
+                                        <input class="form-control me-2" type="search" placeholder="Search"
+                                                aria-label="Search">
+                                        <button class="btn btn-outline-primary" type="submit">Search</button>
+                                        <a href="user/login.html"><button class="btn btn-success mx-2"
+                                                        type="button">Login</button></a>
+                                        <a href="user/register.html"><button class="btn btn-danger mx-1"
+                                                        type="button">Register</button></a>
+                                </form>
+                        </div>
+                </div>
+        </nav>
+        <table class="table mt-5">
+                <tbody>
+                        <tr>
+                                <td>
+                                        <ul>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/akedi.html">Akedi</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/akesan.html">Akesan</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/aligadh.html">Aligadh</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ambaliyal.html">Ambaliyal</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ambetha.html">Ambetha</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/angola.html">Angola</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/antroli.html">Antroli</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/asmapura-gola.html">Asmapura
+                                                                (Gola)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/asmapura-karjoda.html">Asmapura
+                                                                (Karjoda)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badargadh.html">Badargadh</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-bhutedi.html">Badarpura
+                                                                (Bhutedi)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-kalusana.html">Badarpura
+                                                                (Kalusana)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-khodla.html">Badarpura
+                                                                (Khodla)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-parpada.html">Badarpura
+                                                                (Parpada)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhagal-jagana.html">Bhagal
+                                                                (Jagana)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhagal-pipli.html">Bhagal
+                                                                (Pipli)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhatamal-moti.html">Bhatamal
+                                                                Moti</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhatamal-nani.html">Bhatamal
+                                                                Nani</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhatwadi.html">Bhatwadi</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sagrosana.html">Sagrosana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhavisana.html">Bhavisana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhutedi.html">Bhutedi</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chadotar.html">Chadotar</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chandisar.html">Chandisar</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chekhala.html">Chekhala</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chitrasani.html">Chitrasani</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dalwada.html">Dalwada</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/delwada.html">Delwada</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dhandha.html">Dhandha</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dhaniyana.html">Dhaniyana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dhelana.html">Dhelana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/varwadia.html">Varwadia</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasan.html">Vasan</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/esbipura.html">Esbipura</a>
+                                                </li>
+
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/fatepur.html">Fatepur</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gadh.html">Gadh</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/galwada.html">Galwada</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gathaman.html">Gathaman</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/talepura-madana.html">Talepura
+                                                                (Madana)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/tokariya.html">Tokariya</a>
+                                                </li>
+                                        </ul>
+                                </td>
+                                <td>
+                                        <ul>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/godh.html">Godh</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gola.html">Gola</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gopalpura.html">Gopalpura</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hasanpur.html">Hasanpur</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hathidra.html">Hathidra</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hebatpur.html">Hebatpur</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hoda.html">Hoda</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jadial.html">Jadial</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jagana.html">Jagana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jasleni.html">Jasleni</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jaspuriya.html">Jaspuriya</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jorapura-bhakhar.html">Jorapura
+                                                                Bhakhar</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/juvol.html">Juvol</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kamalpur.html">Kamalpur</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kanodar.html">Kanodar</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/karjoda.html">Karjoda</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kharodiya.html">Kharodiya</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/khasa.html">Khasa</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/khemana.html">Khemana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/khodla.html">Khodla</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kotda-bhakhar.html">Kotda
+                                                                (Bhakhar)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kotda-chand-gadh.html">Kotda
+                                                                (Chand Gadh)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kumbhalmer.html">Kumbhalmer</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ratanpur.html">Ratanpur</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/salempura.html">Salempura</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ruppura.html">Ruppura</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kumbhasan.html">Kumbhasan</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kumpar.html">Kumpar</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kushakal.html">Kushakal</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/lalawada.html">Lalawada</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/laxmanpura.html">Laxmanpura</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/lunwa.html">Lunwa</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/madana-dangiya.html">Madana
+                                                                (Dangiya)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/madana-gadh.html">Madana
+                                                                (Gadh)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/malan.html">Malan</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/malana.html">Malana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/malpuriya.html">Malpuriya</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/manaka.html">Manaka</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/manpur-karjoda.html">Manpur
+                                                                (Karjoda)</a></li>
+                                        </ul>
+                                </td>
+                                <td>
+                                        <ul>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/merwada-mahajan.html">Merwada
+                                                                (Mahajan)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/merwada-ratanpur.html">Merwada
+                                                                (Ratanpur)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/moriya.html">Moriya</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/mota.html">Mota</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/nalasar.html">Nalasar</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pakhanwa.html">Pakhanwa</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/palanpur.html">Palanpur</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/parpada.html">Parpada</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/patosan.html">Patosan</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pedagara.html">Pedagara</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pipli.html">Pipli</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pirojpuratankani.html">Pirojpura(Tankani)</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/rajpur-pakhanva.html">Rajpur
+                                                                (Pakhanva)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/rampura-karaza.html">Rampura
+                                                                (Karaza)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ranawas.html">Ranawas</a>
+                                                </li>
+
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sadarpur.html">Sadarpur</a>
+                                                </li>
+
+
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/salla.html">Salla</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sambarda.html">Sambarda</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/samdhi-motavas.html">Samdhi
+                                                                (Motavas)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/samdhi-nadhanivas.html">Samdhi
+                                                                (Nadhanivas)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/samdhi-ranajivas.html">Samdhi
+                                                                Ranajivas</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sangla.html">Sangla</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sangra.html">Sangra</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/saripada.html">Saripada</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sasam.html">Sasam</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sedrasana.html">Sedrasana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/semodra.html">Semodra</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/songadh.html">Songadh</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sundha.html">Sundha</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/takarwada.html">Takarwada</a>
+                                                </li>
+
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ukarda.html">Ukarda</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vadhana.html">Vadhana</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vagda.html">Vagda</a>
+                                                </li>
+
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasani.html">Vasani</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasda-fatepur.html">Vasda
+                                                                (Fatepur)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasda-mujpur.html">Vasda
+                                                                (Mujpur)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasna-jagana.html">Vasna
+                                                                (Jagana)</a></li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vedancha.html">Vedancha</a>
+                                                </li>
+                                                <li><a href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/virpur.html">Virpur</a>
+                                                </li>
+                                        </ul>
+                                </td>
+                        </tr>
+                </tbody>
+        </table>
+        <div class="vill_liking">
+                <ul>
+
+
+
                 </ul>
-                
-                <form class="d-flex" role="search gap-2">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary" type="submit">Search</button>
-                    <a href="user/login.html"><button class="btn btn-success mx-2" type="button">Login</button></a>
-                    <a href="user/register.html"><button class="btn btn-danger mx-1" type="button">Register</button></a>
-                </form>
-            </div>
         </div>
-    </nav>
-    <table class="table mt-5">
-        <tbody>
-            <tr>
-                <td>
-                    <ul>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/akedi.html">Akedi</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/akesan.html">Akesan</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/aligadh.html">Aligadh</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ambaliyal.html">Ambaliyal</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ambetha.html">Ambetha</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/angola.html">Angola</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/antroli.html">Antroli</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/asmapura-gola.html">Asmapura
-                                (Gola)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/asmapura-karjoda.html">Asmapura
-                                (Karjoda)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badargadh.html">Badargadh</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-bhutedi.html">Badarpura
-                                (Bhutedi)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-kalusana.html">Badarpura
-                                (Kalusana)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-khodla.html">Badarpura
-                                (Khodla)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/badarpura-parpada.html">Badarpura
-                                (Parpada)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhagal-jagana.html">Bhagal
-                                (Jagana)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhagal-pipli.html">Bhagal
-                                (Pipli)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhatamal-moti.html">Bhatamal
-                                Moti</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhatamal-nani.html">Bhatamal
-                                Nani</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhatwadi.html">Bhatwadi</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sagrosana.html">Sagrosana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhavisana.html">Bhavisana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/bhutedi.html">Bhutedi</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chadotar.html">Chadotar</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chandisar.html">Chandisar</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chekhala.html">Chekhala</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/chitrasani.html">Chitrasani</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dalwada.html">Dalwada</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/delwada.html">Delwada</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dhandha.html">Dhandha</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dhaniyana.html">Dhaniyana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/dhelana.html">Dhelana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/varwadia.html">Varwadia</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasan.html">Vasan</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/esbipura.html">Esbipura</a>
-                        </li>
-
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/fatepur.html">Fatepur</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gadh.html">Gadh</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/galwada.html">Galwada</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gathaman.html">Gathaman</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/talepura-madana.html">Talepura
-                                (Madana)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/tokariya.html">Tokariya</a>
-                        </li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/godh.html">Godh</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gola.html">Gola</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/gopalpura.html">Gopalpura</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hasanpur.html">Hasanpur</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hathidra.html">Hathidra</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hebatpur.html">Hebatpur</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/hoda.html">Hoda</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jadial.html">Jadial</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jagana.html">Jagana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jasleni.html">Jasleni</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jaspuriya.html">Jaspuriya</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/jorapura-bhakhar.html">Jorapura
-                                Bhakhar</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/juvol.html">Juvol</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kamalpur.html">Kamalpur</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kanodar.html">Kanodar</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/karjoda.html">Karjoda</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kharodiya.html">Kharodiya</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/khasa.html">Khasa</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/khemana.html">Khemana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/khodla.html">Khodla</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kotda-bhakhar.html">Kotda
-                                (Bhakhar)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kotda-chand-gadh.html">Kotda
-                                (Chand Gadh)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kumbhalmer.html">Kumbhalmer</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ratanpur.html">Ratanpur</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/salempura.html">Salempura</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ruppura.html">Ruppura</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kumbhasan.html">Kumbhasan</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kumpar.html">Kumpar</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/kushakal.html">Kushakal</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/lalawada.html">Lalawada</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/laxmanpura.html">Laxmanpura</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/lunwa.html">Lunwa</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/madana-dangiya.html">Madana
-                                (Dangiya)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/madana-gadh.html">Madana
-                                (Gadh)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/malan.html">Malan</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/malana.html">Malana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/malpuriya.html">Malpuriya</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/manaka.html">Manaka</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/manpur-karjoda.html">Manpur
-                                (Karjoda)</a></li>
-                    </ul>
-                </td>
-                <td>
-                    <ul>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/merwada-mahajan.html">Merwada
-                                (Mahajan)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/merwada-ratanpur.html">Merwada
-                                (Ratanpur)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/moriya.html">Moriya</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/mota.html">Mota</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/nalasar.html">Nalasar</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pakhanwa.html">Pakhanwa</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/palanpur.html">Palanpur</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/parpada.html">Parpada</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/patosan.html">Patosan</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pedagara.html">Pedagara</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pipli.html">Pipli</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/pirojpuratankani.html">Pirojpura(Tankani)</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/rajpur-pakhanva.html">Rajpur
-                                (Pakhanva)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/rampura-karaza.html">Rampura
-                                (Karaza)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ranawas.html">Ranawas</a>
-                        </li>
-
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sadarpur.html">Sadarpur</a>
-                        </li>
-
-
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/salla.html">Salla</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sambarda.html">Sambarda</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/samdhi-motavas.html">Samdhi
-                                (Motavas)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/samdhi-nadhanivas.html">Samdhi
-                                (Nadhanivas)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/samdhi-ranajivas.html">Samdhi
-                                Ranajivas</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sangla.html">Sangla</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sangra.html">Sangra</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/saripada.html">Saripada</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sasam.html">Sasam</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sedrasana.html">Sedrasana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/semodra.html">Semodra</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/songadh.html">Songadh</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/sundha.html">Sundha</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/takarwada.html">Takarwada</a>
-                        </li>
-
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/ukarda.html">Ukarda</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vadhana.html">Vadhana</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vagda.html">Vagda</a>
-                        </li>
-
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasani.html">Vasani</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasda-fatepur.html">Vasda
-                                (Fatepur)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasda-mujpur.html">Vasda
-                                (Mujpur)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vasna-jagana.html">Vasna
-                                (Jagana)</a></li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/vedancha.html">Vedancha</a>
-                        </li>
-                        <li><a
-                                href="https://www.mapsofindia.com/villages/gujarat/banas-kantha/palanpur/virpur.html">Virpur</a>
-                        </li>
-                    </ul>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <div class="vill_liking">
-        <ul>
-
-
-
-        </ul>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+                crossorigin="anonymous"></script>
 </body>
 
 </html>
